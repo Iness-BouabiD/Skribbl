@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Gloria+Hallelujah&family=Gruppo&family=Homemade+Apple&family=Raleway:wght@100&family=Russo+One&display=swap');
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: black;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: 'Gruppo', cursive;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Gloria+Hallelujah&family=Gruppo&family=Homemade+Apple&family=Raleway:wght@100&family=Russo+One&display=swap');
+
+
+
+
+body{
+  background-image: url('../../image/5e93446c8e04d4eebb641b953266846c.jpg');
+ 
+}
+.joinInnerContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 350px;
+  width: 500px;
+  background: #fff;
+  /* border-radius: 20px; */
+  -webkit-box-shadow: 0px 5x 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2fr 1.2fr;
+      grid-template-rows: 1fr 2fr 1.2fr;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.863);
+  width:400px;
+  height:230px;
+}
+.heading{
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-family: 'Gruppo', cursive;
+  color:#000;
+  font-weight: 900;
+
+}
+.joinInput{
+  box-sizing: border-box;
+  padding: 10px;
+  width:300px;
+  margin-top: 5px;
+  text-align: center;
+  display: grid;
+  font-size: 18px;
+  margin-left: 10px;
+
+  
+}
+.button{
+  background-color:#4040bf;
+	border-radius:20px;
+	border:1px solid #4040bf;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:16px;
+	padding:16px 25px;
+	letter-spacing: 2px;
+  margin-left: 15px;
+  font-family: 'Gruppo', cursive;
+  font-weight: bold;
+  
+
+}
+.button1{
+  background-color:#4040bf;
+	border-radius:20px;
+	border:1px solid #4040bf;
+	display:inline-block;
+  margin-left: 30px;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:16px;
+	padding:16px 25px;
+  letter-spacing: 2px;
+  font-family: 'Gruppo', cursive;
+  font-weight: bold;
+	
+}
+.button:hover{
+  background-color:#333399;
+}
+.button1:hover{
+  background-color:#333399;
+}
